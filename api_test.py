@@ -528,9 +528,9 @@ def main():
     # Тестируем на примере первого спикера
     test_voice = speaker_files.get("A")
     if test_voice and os.path.exists(test_voice):
-        # test_instruct2(test_voice)
-        # test_cross_lingual(test_voice)
-        # test_save_and_clone_speaker(test_voice)
+        test_instruct2(test_voice)
+        test_cross_lingual(test_voice)
+        test_save_and_clone_speaker(test_voice)
         print(" Тестирование всех функций API")
     
     # Тестируем диалог
